@@ -1,0 +1,72 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    margin: 70px auto;
+    background: rgb(72, 117, 121);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(12, 12, 12);
+    text-align: left;
+    padding: 10px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(126, 89, 89);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(19, 17, 17);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #832c2c;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #659fce;
+}
+
+input[type="reset"]:hover{
+    background: #05ee40;
+}
+
+button{
+    background: #03d326;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
